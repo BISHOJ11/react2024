@@ -1,8 +1,15 @@
 import React from 'react'
 
-const App = () => {
+
+function App() {
+  const username = "BIshoj is on vite"
+
   return (
-    <h1>Vite is on </h1>
+    <>
+    <Chai/>
+    <h1>chai aur react {username}</h1>
+    <p>test para</p>
+   </>
   )
 }
 
